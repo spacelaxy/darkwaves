@@ -33,22 +33,16 @@
     "editorBracketPairGuide.background5": "#2b2f35",
     "editorBracketPairGuide.background6": "#2b2f35",
     "editor.lineHighlightBackground": "#25282e",
-
-    
     "titleBar.activeBackground": "#1f1f1f",
     "titleBar.activeForeground": "#d0d0d0",
     "titleBar.inactiveBackground": "#1f1f1f",
     "titleBar.inactiveForeground": "#bcbcbc",
     "titleBar.border": "#00000000",
-
-    
     "activityBar.background": "#212121",
     "activityBar.foreground": "#cfcfcf",
     "activityBar.inactiveForeground": "#9e9e9e",
     "activityBar.border": "#00000000",
     "activityBar.activeBorder": "#8c78e6",
-
-    
     "sideBar.background": "#1a1a1a",
     "sideBar.foreground": "#bbbbbb",
     "sideBar.border": "#00000000",
@@ -58,8 +52,6 @@
     "sideBarTitle.border": "#00000000",
     "sideBarTitle.background": "#1a1a1a",
     "sideBarStickyScroll.shadow": "#00000000",
-
-    
     "statusBar.background": "#1a1a1a",
     "statusBar.foreground": "#e8e8e8",
     "statusBar.border": "#262626",
@@ -76,8 +68,6 @@
     "focusBorder": "#00000000",
     "sash.hoverBorder": "#00000000",
     "sideBarStickyScroll.border": "#00000000",
-
-    
     "tab.activeBackground": "#1a1a1a",
     "tab.activeForeground": "#dcdcdc",
     "tab.activeBorder": "#00000000",
@@ -95,8 +85,6 @@
     "editorGroupHeader.noTabsBackground": "#1f1f1f",
     "editorPane.background": "#1f1f1f",
     "editorGroupHeader.tabsBorder": "#00000000",
-
-    
     "list.activeSelectionBackground": "#23272c",
     "list.activeSelectionForeground": "#e8e8e8",
     "list.inactiveSelectionBackground": "#23272c",
@@ -109,8 +97,6 @@
     "list.inactiveFocusOutline": "#00000000",
     "list.focusBackground": "#23272c",
     "list.focusForeground": "#e8e8e8",
-
-    
     "menubar.background": "#1f1f1f",
     "menubar.foreground": "#d0d0d0",
     "menubar.selectionBackground": "#2e2e2e",
@@ -121,14 +107,10 @@
     "menu.selectionForeground": "#e8e8e8",
     "menu.border": "#262626",
     "menu.separatorBackground": "#1c1c1c",
-
-    
     "dropdown.background": "#262626",
     "dropdown.listBackground": "#1a1a1a",
     "dropdown.border": "#1c1c1c",
     "dropdown.foreground": "#d0d0d0",
-
-    
     "commandCenter.foreground": "#d0d0d0",
     "commandCenter.activeForeground": "#e8e8e8",
     "commandCenter.background": "#1f1f1f",
@@ -138,8 +120,6 @@
     "commandCenter.inactiveBorder": "#00000000",
     "commandCenter.activeBorder": "#7f6bdc",
     "commandCenter.debuggingBackground": "#2b2f35",
-
-    
     "button.background": "#7f6bdc",
     "button.foreground": "#e8e8e8",
     "button.hoverBackground": "#8a79e2",
@@ -150,15 +130,11 @@
     "button.prominentHoverBackground": "#8a79e2",
     "button.prominentFocusBackground": "#7f6bdc",
     "button.focusBorder": "#9b7fd2",
-
-    
     "panel.background": "#171717",
     "panel.border": "#00000000",
     "panelTitle.activeForeground": "#e0e0e0",
     "panelTitle.inactiveForeground": "#aaaaaa",
     "panelTitle.activeBorder": "#8c78e6",
-
-    
     "terminal.background": "#171717",
     "terminal.foreground": "#dddddd",
     "terminal.selectionBackground": "#dddddd22",
@@ -209,6 +185,29 @@
       ],
       "settings": {
         "foreground": "#b69fd6"
+      }
+    },
+    {
+      "name": "PHP Tags",
+      "scope": [
+        "punctuation.section.embedded.begin.php",
+        "punctuation.section.embedded.end.php",
+        "meta.tag.php",
+        "meta.tag.php.html",
+        "meta.tag.php.xml",
+        "meta.tag.php.yaml",
+        "meta.tag.php.json",
+        "meta.tag.php.css",
+        "meta.tag.php.scss",
+        "meta.tag.php.less",
+        "meta.tag.php.stylus",
+        "meta.tag.php.sass",
+        "meta.tag.php.styl",
+        "meta.tag.php.jsx",
+        "meta.tag.php.tsx"
+      ],
+      "settings": {
+        "foreground": "#FF6B6B"
       }
     },
     {
@@ -350,8 +349,7 @@
       "settings": {
         "foreground": "#dcdcdc"
       }
-    }
-    ,
+    },
     {
       "name": "CSS: Comment",
       "scope": [
@@ -548,8 +546,7 @@
       "settings": {
         "foreground": "#e6a7c1"
       }
-    }
-    ,
+    },
     {
       "name": "JSON: Comment (JSONC)",
       "scope": [
@@ -625,8 +622,7 @@
       "settings": {
         "foreground": "#cccccc"
       }
-    }
-    ,
+    },
     {
       "name": "JS/TS: Comment",
       "scope": [
@@ -821,8 +817,7 @@
       "settings": {
         "foreground": "#cccccc"
       }
-    }
-    ,
+    },
     {
       "name": "Generic: Comment (All)",
       "scope": [
@@ -866,6 +861,20 @@
       }
     },
     {
+      "name": "Generic: Return Statement (All)",
+      "scope": [
+        "keyword.control.return",
+        "keyword.control.return.ts",
+        "keyword.control.return.tsx",
+        "keyword.control.return.js",
+        "keyword.control.return.jsx"
+      ],
+      "settings": {
+        "foreground": "#b69fd6",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Generic: String (All)",
       "scope": [
         "string",
@@ -891,7 +900,67 @@
         "entity.name.function",
         "meta.function-call",
         "variable.function",
-        "support.function"
+        "support.function",
+        "entity.name.function.js",
+        "entity.name.function.ts",
+        "entity.name.function.tsx",
+        "entity.name.function.jsx",
+        "entity.name.function.php",
+        "entity.name.function.java",
+        "entity.name.function.cpp",
+        "entity.name.function.c",
+        "entity.name.function.cs",
+        "entity.name.function.python",
+        "entity.name.function.ruby",
+        "entity.name.function.go",
+        "entity.name.function.rs",
+        "entity.name.function.swift",
+        "entity.name.function.kotlin",
+        "meta.function-call.js",
+        "meta.function-call.ts",
+        "meta.function-call.tsx",
+        "meta.function-call.jsx",
+        "meta.function-call.php",
+        "meta.function-call.java",
+        "meta.function-call.cpp",
+        "meta.function-call.c",
+        "meta.function-call.cs",
+        "meta.function-call.python",
+        "meta.function-call.ruby",
+        "meta.function-call.go",
+        "meta.function-call.rs",
+        "meta.function-call.swift",
+        "meta.function-call.kotlin",
+        "support.function.js",
+        "support.function.ts",
+        "support.function.tsx",
+        "support.function.jsx",
+        "support.function.php",
+        "support.function.java",
+        "support.function.cpp",
+        "support.function.c",
+        "support.function.cs",
+        "support.function.python",
+        "support.function.ruby",
+        "support.function.go",
+        "support.function.rs",
+        "support.function.swift",
+        "support.function.kotlin",
+        "variable.function.js",
+        "variable.function.ts",
+        "variable.function.tsx",
+        "variable.function.jsx",
+        "variable.function.php",
+        "variable.function.java",
+        "variable.function.cpp",
+        "variable.function.c",
+        "variable.function.cs",
+        "variable.function.python",
+        "variable.function.ruby",
+        "variable.function.go",
+        "variable.function.rs",
+        "variable.function.swift",
+        "variable.function.kotlin"
       ],
       "settings": {
         "foreground": "#f4e39e"
@@ -905,7 +974,167 @@
         "entity.name.type",
         "support.type",
         "support.type.primitive",
-        "entity.other.inherited-class"
+        "entity.other.inherited-class",
+        "entity.name.class.js",
+        "entity.name.class.ts",
+        "entity.name.class.tsx",
+        "entity.name.class.jsx",
+        "entity.name.class.php",
+        "entity.name.class.java",
+        "entity.name.class.cpp",
+        "entity.name.class.c",
+        "entity.name.class.cs",
+        "entity.name.class.python",
+        "entity.name.class.ruby",
+        "entity.name.class.go",
+        "entity.name.class.rs",
+        "entity.name.class.swift",
+        "entity.name.class.kotlin",
+        "entity.name.interface",
+        "entity.name.interface.js",
+        "entity.name.interface.ts",
+        "entity.name.interface.tsx",
+        "entity.name.interface.jsx",
+        "entity.name.interface.php",
+        "entity.name.interface.java",
+        "entity.name.interface.cpp",
+        "entity.name.interface.c",
+        "entity.name.interface.cs",
+        "entity.name.interface.python",
+        "entity.name.interface.ruby",
+        "entity.name.interface.go",
+        "entity.name.interface.rs",
+        "entity.name.interface.swift",
+        "entity.name.interface.kotlin",
+        "entity.name.enum",
+        "entity.name.enum.js",
+        "entity.name.enum.ts",
+        "entity.name.enum.tsx",
+        "entity.name.enum.jsx",
+        "entity.name.enum.php",
+        "entity.name.enum.java",
+        "entity.name.enum.cpp",
+        "entity.name.enum.c",
+        "entity.name.enum.cs",
+        "entity.name.enum.python",
+        "entity.name.enum.ruby",
+        "entity.name.enum.go",
+        "entity.name.enum.rs",
+        "entity.name.enum.swift",
+        "entity.name.enum.kotlin",
+        "entity.name.struct",
+        "entity.name.struct.js",
+        "entity.name.struct.ts",
+        "entity.name.struct.tsx",
+        "entity.name.struct.jsx",
+        "entity.name.struct.php",
+        "entity.name.struct.java",
+        "entity.name.struct.cpp",
+        "entity.name.struct.c",
+        "entity.name.struct.cs",
+        "entity.name.struct.python",
+        "entity.name.struct.ruby",
+        "entity.name.struct.go",
+        "entity.name.struct.rs",
+        "entity.name.struct.swift",
+        "entity.name.struct.kotlin",
+        "entity.name.union",
+        "entity.name.union.js",
+        "entity.name.union.js",
+        "entity.name.union.ts",
+        "entity.name.union.tsx",
+        "entity.name.union.jsx",
+        "entity.name.union.php",
+        "entity.name.union.java",
+        "entity.name.union.cpp",
+        "entity.name.union.c",
+        "entity.name.union.cs",
+        "entity.name.union.python",
+        "entity.name.union.ruby",
+        "entity.name.union.go",
+        "entity.name.union.rs",
+        "entity.name.union.swift",
+        "entity.name.union.kotlin",
+        "entity.name.namespace",
+        "entity.name.namespace.js",
+        "entity.name.namespace.ts",
+        "entity.name.namespace.tsx",
+        "entity.name.namespace.jsx",
+        "entity.name.namespace.php",
+        "entity.name.namespace.java",
+        "entity.name.namespace.cpp",
+        "entity.name.namespace.c",
+        "entity.name.namespace.cs",
+        "entity.name.namespace.python",
+        "entity.name.namespace.ruby",
+        "entity.name.namespace.go",
+        "entity.name.namespace.rs",
+        "entity.name.namespace.swift",
+        "entity.name.namespace.kotlin",
+        "entity.name.module",
+        "entity.name.module.js",
+        "entity.name.module.ts",
+        "entity.name.module.tsx",
+        "entity.name.module.jsx",
+        "entity.name.module.php",
+        "entity.name.module.java",
+        "entity.name.module.cpp",
+        "entity.name.module.c",
+        "entity.name.module.cs",
+        "entity.name.module.python",
+        "entity.name.module.ruby",
+        "entity.name.module.go",
+        "entity.name.module.rs",
+        "entity.name.module.swift",
+        "entity.name.module.kotlin",
+        "entity.name.package",
+        "entity.name.package.js",
+        "entity.name.package.ts",
+        "entity.name.package.tsx",
+        "entity.name.package.jsx",
+        "entity.name.package.php",
+        "entity.name.package.java",
+        "entity.name.package.cpp",
+        "entity.name.package.c",
+        "entity.name.package.cs",
+        "entity.name.package.python",
+        "entity.name.package.ruby",
+        "entity.name.package.go",
+        "entity.name.package.rs",
+        "entity.name.package.swift",
+        "entity.name.package.kotlin",
+        "entity.name.trait",
+        "entity.name.trait.js",
+        "entity.name.trait.ts",
+        "entity.name.trait.tsx",
+        "entity.name.trait.jsx",
+        "entity.name.trait.php",
+        "entity.name.trait.java",
+        "entity.name.trait.cpp",
+        "entity.name.trait.c",
+        "entity.name.trait.cs",
+        "entity.name.trait.python",
+        "entity.name.trait.ruby",
+        "entity.name.trait.go",
+        "entity.name.trait.rs",
+        "entity.name.trait.swift",
+        "entity.name.trait.kotlin",
+        "entity.name.mixin",
+        "entity.name.mixin.js",
+        "entity.name.mixin.ts",
+        "entity.name.mixin.tsx",
+        "entity.name.mixin.jsx",
+        "entity.name.mixin.php",
+        "entity.name.mixin.java",
+        "entity.name.mixin.cpp",
+        "entity.name.mixin.c",
+        "entity.name.mixin.cs",
+        "entity.name.mixin.python",
+        "entity.name.mixin.ruby",
+        "entity.name.mixin.go",
+        "entity.name.mixin.rs",
+        "entity.name.mixin.swift",
+        "entity.name.mixin.kotlin"
       ],
       "settings": {
         "foreground": "#9cb3e6"
@@ -1103,6 +1332,60 @@
         "fontStyle": "italic",
         "foreground": "#e6a7c1E6"
       }
+    },
+    {
+      "name": "Class Inheritance and Implementation",
+      "scope": [
+        "keyword.control.extends",
+        "keyword.control.implements",
+        "keyword.control.extends.js",
+        "keyword.control.extends.ts",
+        "keyword.control.extends.tsx",
+        "keyword.control.extends.jsx",
+        "keyword.control.extends.php",
+        "keyword.control.extends.java",
+        "keyword.control.extends.cpp",
+        "keyword.control.extends.c",
+        "keyword.control.extends.cs",
+        "keyword.control.extends.python",
+        "keyword.control.extends.ruby",
+        "keyword.control.extends.go",
+        "keyword.control.extends.rs",
+        "keyword.control.extends.swift",
+        "keyword.control.extends.kotlin",
+        "keyword.control.implements.js",
+        "keyword.control.implements.ts",
+        "keyword.control.implements.tsx",
+        "keyword.control.implements.jsx",
+        "keyword.control.implements.php",
+        "keyword.control.implements.java",
+        "keyword.control.implements.cpp",
+        "keyword.control.implements.c",
+        "keyword.control.implements.cs",
+        "keyword.control.implements.python",
+        "keyword.control.implements.ruby",
+        "keyword.control.implements.go",
+        "keyword.control.implements.rs",
+        "keyword.control.implements.swift",
+        "keyword.control.implements.kotlin"
+      ],
+      "settings": {
+        "foreground": "#FFB347",
+        "fontStyle": "bold"
+      }
     }
-  ]
+  ],
+  "tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "constant.numeric.css",
+          "keyword.other.unit.css"
+        ],
+        "settings": {
+          "foreground": "#FFD700"
+        }
+      }
+    ]
+  }
 }
