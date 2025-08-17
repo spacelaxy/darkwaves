@@ -1,5 +1,5 @@
 {
-  "name": "Nebula",
+  "name": "Darkwaves: Nebula",
   "type": "dark",
   "colors": {
     "editor.background": "#1A1D23",
@@ -607,10 +607,7 @@
       "name": "Variable",
       "scope": [
         "variable.other.readwrite",
-        "variable.other.property",
         "variable.parameter",
-        "variable.other",
-        "support.variable",
         "variable.language.this",
         "variable.language.super"
       ],
@@ -746,25 +743,50 @@
       }
     },
     {
-      "name": "CSS Numeric Values",
+      "name": "CSS Numbers and Units",
       "scope": [
         "constant.numeric.css",
         "constant.numeric.scss",
-        "constant.numeric.less"
-      ],
-      "settings": {
-        "foreground": "#E5C07B"
-      }
-    },
-    {
-      "name": "CSS Units",
-      "scope": [
+        "constant.numeric.less",
         "keyword.other.unit.css",
         "keyword.other.unit.scss",
         "keyword.other.unit.less"
       ],
       "settings": {
-        "foreground": "#D19A66"
+        "foreground": "#B48E72"
+      }
+    },
+    {
+      "name": "Universal Units",
+      "scope": [
+        "keyword.other.unit",
+        "keyword.other.unit.em",
+        "keyword.other.unit.rem",
+        "keyword.other.unit.px",
+        "keyword.other.unit.pt",
+        "keyword.other.unit.pc",
+        "keyword.other.unit.in",
+        "keyword.other.unit.cm",
+        "keyword.other.unit.mm",
+        "keyword.other.unit.q",
+        "keyword.other.unit.ch",
+        "keyword.other.unit.ex",
+        "keyword.other.unit.vw",
+        "keyword.other.unit.vh",
+        "keyword.other.unit.vmin",
+        "keyword.other.unit.vmax",
+        "keyword.other.unit.percent",
+        "keyword.other.unit.deg",
+        "keyword.other.unit.rad",
+        "keyword.other.unit.grad",
+        "keyword.other.unit.turn",
+        "keyword.other.unit.ms",
+        "keyword.other.unit.s",
+        "keyword.other.unit.hz",
+        "keyword.other.unit.khz"
+      ],
+      "settings": {
+        "foreground": "#B48E72"
       }
     },
     {
@@ -869,6 +891,58 @@
       ],
       "settings": {
         "foreground": "#98C379"
+      }
+    },
+    {
+      "name": "JSON Number",
+      "scope": [
+        "constant.numeric.json"
+      ],
+      "settings": {
+        "foreground": "#D19A66"
+      }
+    },
+    {
+      "name": "JSON Boolean",
+      "scope": [
+        "constant.language.boolean.json",
+        "constant.language.true.json",
+        "constant.language.false.json"
+      ],
+      "settings": {
+        "foreground": "#C678DD"
+      }
+    },
+    {
+      "name": "JSON Null",
+      "scope": [
+        "constant.language.null.json"
+      ],
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
+      "name": "JSON Comment",
+      "scope": [
+        "comment.line.json",
+        "comment.block.json"
+      ],
+      "settings": {
+        "foreground": "#5C6370",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "JSON Special Characters",
+      "scope": [
+        "punctuation.separator.key-value.json",
+        "punctuation.definition.dictionary.begin.json",
+        "punctuation.definition.dictionary.end.json",
+        "punctuation.separator.array.json"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
       }
     },
     {
@@ -1113,7 +1187,7 @@
           "keyword.other.unit.css"
         ],
         "settings": {
-          "foreground": "#FFD700"
+          "foreground": "#B48E72"
         }
       }
     ]
