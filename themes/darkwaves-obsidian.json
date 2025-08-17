@@ -14,12 +14,12 @@
     "editorIndentGuide.background": "#151515",
     "editorIndentGuide.activeBackground": "#1E1E1E",
     "editorBracketHighlight.foreground1": "#66BB6A",
-    "editorBracketHighlight.foreground2": "#E57373",
+    "editorBracketHighlight.foreground2": "#4EC9B0",
     "editorBracketHighlight.foreground3": "#81C784",
     "editorBracketHighlight.foreground4": "#66BB6A",
-    "editorBracketHighlight.foreground5": "#E57373",
+    "editorBracketHighlight.foreground5": "#4EC9B0",
     "editorBracketHighlight.foreground6": "#81C784",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#E57373",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#4EC9B0",
     "editorBracketPairGuide.activeBackground1": "#1E1E1E",
     "editorBracketPairGuide.activeBackground2": "#1E1E1E",
     "editorBracketPairGuide.activeBackground3": "#1E1E1E",
@@ -269,7 +269,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#5c6370"
+        "foreground": "#6A7C93"
       }
     },
     {
@@ -283,7 +283,7 @@
         "punctuation.definition.string.end"
       ],
       "settings": {
-        "foreground": "#2E8B57"
+        "foreground": "#7FB069"
       }
     },
     {
@@ -297,7 +297,7 @@
         "constant.numeric.octal"
       ],
       "settings": {
-        "foreground": "#D4A017"
+        "foreground": "#E6B665"
       }
     },
     {
@@ -319,7 +319,7 @@
         "keyword.control.continue"
       ],
       "settings": {
-        "foreground": "#FF6B6B"
+        "foreground": "#4EC9B0"
       }
     },
     {
@@ -333,7 +333,7 @@
         "storage.modifier.implements"
       ],
       "settings": {
-        "foreground": "#FF6B6B"
+        "foreground": "#4EC9B0"
       }
     },
     {
@@ -358,7 +358,7 @@
         "entity.name.type.alias"
       ],
       "settings": {
-        "foreground": "#C586C0"
+        "foreground": "#C678DD"
       }
     },
     {
@@ -682,7 +682,7 @@
         "meta.tag.php.tsx"
       ],
       "settings": {
-        "foreground": "#FF6B6B"
+        "foreground": "#E06C75"
       }
     },
     {
@@ -907,7 +907,7 @@
       "name": "PHP Variable Symbol",
       "scope": ["punctuation.definition.variable.php"],
       "settings": {
-        "foreground": "#2E8B57"
+        "foreground": "#E5C07B"
       }
     },
     {
@@ -921,28 +921,28 @@
       "name": "PHP Variables",
       "scope": ["variable.other.php", "variable.language.php"],
       "settings": {
-        "foreground": "#2E8B57"
+        "foreground": "#E5C07B"
       }
     },
     {
       "name": "PHP Functions Native",
       "scope": ["support.function.php"],
       "settings": {
-        "foreground": "#00D4FF"
+        "foreground": "#61AFEF"
       }
     },
     {
       "name": "PHP Functions User",
       "scope": ["entity.name.function.php"],
       "settings": {
-        "foreground": "#00D4FF"
+        "foreground": "#61AFEF"
       }
     },
     {
       "name": "PHP Classes/Interfaces",
       "scope": ["entity.name.class.php", "entity.name.interface.php"],
       "settings": {
-        "foreground": "#C586C0"
+        "foreground": "#C678DD"
       }
     },
     {
@@ -960,35 +960,35 @@
         "keyword.control.statement.python"
       ],
       "settings": {
-        "foreground": "#FF6B6B"
+        "foreground": "#E06C75"
       }
     },
     {
       "name": "Python Decorators",
       "scope": ["meta.decorator.python", "entity.name.decorator.python"],
       "settings": {
-        "foreground": "#C586C0"
+        "foreground": "#C678DD"
       }
     },
     {
       "name": "Python Functions",
       "scope": ["entity.name.function.python"],
       "settings": {
-        "foreground": "#00D4FF"
+        "foreground": "#61AFEF"
       }
     },
     {
       "name": "Python Classes",
       "scope": ["entity.name.class.python"],
       "settings": {
-        "foreground": "#C586C0"
+        "foreground": "#C678DD"
       }
     },
     {
       "name": "Python Variables",
       "scope": ["variable.parameter.python", "variable.other.python"],
       "settings": {
-        "foreground": "#E8E8E8"
+        "foreground": "#E5C07B"
       }
     },
     {
