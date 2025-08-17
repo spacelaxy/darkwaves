@@ -297,7 +297,7 @@
         "constant.numeric.octal"
       ],
       "settings": {
-        "foreground": "#E6B665"
+        "foreground": "#81C784"
       }
     },
     {
@@ -776,28 +776,6 @@
       }
     },
     {
-      "name": "CSS Units",
-      "scope": [
-        "keyword.other.unit.css",
-        "keyword.other.unit.scss",
-        "keyword.other.unit.less"
-      ],
-      "settings": {
-        "foreground": "#FF6B6B"
-      }
-    },
-    {
-      "name": "CSS Numeric Values",
-      "scope": [
-        "constant.numeric.css",
-        "constant.numeric.scss",
-        "constant.numeric.less"
-      ],
-      "settings": {
-        "foreground": "#FF6B6B"
-      }
-    },
-    {
       "name": "CSS Strings",
       "scope": [
         "string.quoted.double.css",
@@ -891,6 +869,20 @@
       ],
       "settings": {
         "foreground": "#808080"
+      }
+    },
+    {
+      "name": "CSS Numbers and Units",
+      "scope": [
+        "constant.numeric.css",
+        "constant.numeric.scss",
+        "constant.numeric.less",
+        "keyword.other.unit.css",
+        "keyword.other.unit.scss",
+        "keyword.other.unit.less"
+      ],
+      "settings": {
+        "foreground": "#4EC9B0"
       }
     },
     {
@@ -1129,7 +1121,7 @@
       "name": "YAML Number",
       "scope": ["constant.numeric.yaml"],
       "settings": {
-        "foreground": "#00FF88"
+        "foreground": "#7FB069"
       }
     },
     {
@@ -1319,15 +1311,5 @@
         "fontStyle": "bold"
       }
     }
-  ],
-  "tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": ["constant.numeric.css", "keyword.other.unit.css"],
-        "settings": {
-          "foreground": "#FF6B6B"
-        }
-      }
-    ]
-  }
+  ]
 }
