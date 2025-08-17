@@ -8,7 +8,7 @@
 
 Whether you're working on frontend applications, backend systems, scientific computing, or creative projects, Darkwaves offers a theme that matches your workflow and personal style. Our themes are built with modern development practices in mind, ensuring compatibility with all VS Code features including syntax highlighting, IntelliSense, and extensions.
 
-[![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://marketplace.visualstudio.com/items?itemName=spacelaxy.darkwaves)
+[![Version](https://img.shields.io/badge/version-0.0.2-blue.svg)](https://marketplace.visualstudio.com/items?itemName=spacelaxy-darkwaves)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 
 ---
@@ -30,23 +30,22 @@ Whether you're working on frontend applications, backend systems, scientific com
 
 ## Showcase
 
-Take a look at how **Darkwaves** transforms the appearance of your VS Code. With balanced colors, optimal contrast, and a clean design, it enhances readability and makes coding more enjoyable. No Photoshop!
+Take a look at how **Darkwaves** transforms the appearance of your VS Code. With balanced colors, optimal contrast, and a clean design, it enhances readability and makes coding more enjoyable.
 
 ### Forge
 <p align="center">
-  <img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/9c85c7c8-5059-49f7-854c-af041c8ac56c" />
+  <img src="https://github.com/user-attachments/assets/9c85c7c8-5059-49f7-854c-af041c8ac56c" alt="Forge Theme" style="max-width:100%; height:auto;" />
 </p>
 
 ### Spectrum
 <p align="center">
-  <img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/6fcd2571-5a08-45d5-9e81-8010e8bcf8de" />
+  <img src="https://github.com/user-attachments/assets/6fcd2571-5a08-45d5-9e81-8010e8bcf8de" alt="Spectrum Theme" style="max-width:100%; height:auto;" />
 </p>
 
 ### Gray Elegance
 <p align="center">
-  <img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/2fefb2d9-c3b3-4a0f-b99c-252df74b19a8" />
+  <img src="https://github.com/user-attachments/assets/2fefb2d9-c3b3-4a0f-b99c-252df74b19a8" alt="Gray Elegance Theme" style="max-width:100%; height:auto;" />
 </p>
-
 
 ## Why Choose Darkwaves?
 
@@ -58,7 +57,7 @@ Darkwaves isn't just another theme collection, it's a **carefully crafted experi
 - ⚡ **Lightning-fast performance** with no lag or glitches  
 
 ### Status Bar Customization
-Darkwaves allows you to customize your VS Code status bar to match your personal workflow and style. Using the settings below, you can easily show or hide the Darkwaves status bar, change the text displayed, and even add a custom icon. This gives you a subtle but stylish way to integrate the theme into your development environment.
+Darkwaves allows you to customize your VS Code status bar to match your personal workflow and style. Using the settings below, you can easily show or hide the Darkwaves status bar, change the text displayed, and even add a custom icon.
 
 ```json
 {
@@ -66,11 +65,3 @@ Darkwaves allows you to customize your VS Code status bar to match your personal
   "darkwaves.statusBarText": "Darkwaves",
   "darkwaves.statusBarIcon": "🌌"
 }
-```
-With these options, you can turn the status bar on or off and fully personalize its appearance, making your coding setup both functional and visually pleasing.
-
----
-
-<p align="center">
-  &copy; 2025 Spacelaxy LLC. All rights reserved. Lexington, Kentucky, USA
-</p>
