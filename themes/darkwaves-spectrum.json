@@ -1486,11 +1486,21 @@
       "scope": [
         "keyword.other",
         "keyword.control",
-        "storage.type",
-        "storage.modifier"
+        "storage.type"
       ],
       "settings": {
         "foreground": "#61AFEF"
+      }
+    },
+    {
+      "name": "Global Access Modifiers",
+      "scope": [
+        "storage.modifier",
+        "keyword.control.async",
+        "keyword.control.await"
+      ],
+      "settings": {
+        "foreground": "#B77BDB"
       }
     }
   ]
