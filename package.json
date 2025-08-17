@@ -2,14 +2,13 @@
   "name": "spacelaxy-darkwaves",
   "displayName": "Darkwaves",
   "description": "Beautiful dark themes collection by Spacelaxy LLC",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "publisher": "spacelaxy",
   "icon": "assets/logo.png",
   "galleryBanner": {
     "color": "#0A0A0A",
     "theme": "dark"
   },
-  "preview": true,
   "markdown": "github",
   "repository": {
     "type": "git",
