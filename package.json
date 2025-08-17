@@ -3,6 +3,30 @@
   "displayName": "Darkwaves",
   "description": "Beautiful dark themes collection by Spacelaxy LLC",
   "version": "0.0.1",
+  "publisher": "spacelaxy",
+  "icon": "assets/logo.png",
+  "galleryBanner": {
+    "color": "#0A0A0A",
+    "theme": "dark"
+  },
+  "preview": true,
+  "markdown": "github",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spacelaxy/darkwaves.git"
+  },
+  "homepage": "https://github.com/spacelaxy/darkwaves",
+  "bugs": {
+    "url": "https://github.com/spacelaxy/darkwaves/issues"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "dark-theme",
+    "color-theme",
+    "spacelaxy",
+    "darkwaves"
+  ],
   "engines": {
     "vscode": "^1.101.0"
   },
