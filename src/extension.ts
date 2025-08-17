@@ -1,4 +1,4 @@
-import * as vscode from "vscode";
+import * as vscode from 'vscode';
 
 class DarkwavesExtension {
   private statusBarItem!: vscode.StatusBarItem;
@@ -9,32 +9,30 @@ class DarkwavesExtension {
   }
 
   public activate(): void {
-    console.log("Spacelaxy Darkwaves is now active!");
+    console.log('Spacelaxy Darkwaves is now active!');
     
     const openThemeMenuCommand = vscode.commands.registerCommand(
-      "darkwaves.openThemeMenu",
+      'darkwaves.openThemeMenu',
       () => this.showThemeMenu()
     );
 
     this.createStatusBarItem();
-
     this.context.subscriptions.push(openThemeMenuCommand);
   }
 
   private createStatusBarItem(): void {
-    const config = vscode.workspace.getConfiguration("darkwaves");
-    const showStatusBar = config.get("showStatusBar", true);
-    const statusBarText = config.get("statusBarText", "Darkwaves");
+    const config = vscode.workspace.getConfiguration('darkwaves');
+    const showStatusBar = config.get('showStatusBar', true);
+    const statusBarText = config.get('statusBarText', 'Darkwaves');
 
-    if (showStatusBar) {
+    if(showStatusBar) {
       this.statusBarItem = vscode.window.createStatusBarItem(
         vscode.StatusBarAlignment.Left,
         100
       );
       
       this.statusBarItem.text = `$(sparkle-filled) ${statusBarText}`;
-      this.statusBarItem.tooltip = "Click to open Darkwaves theme menu";
-      this.statusBarItem.command = "darkwaves.openThemeMenu";
+      this.statusBarItem.command = 'darkwaves.openThemeMenu';
       this.statusBarItem.show();
 
       this.context.subscriptions.push(this.statusBarItem);
@@ -48,11 +46,25 @@ class DarkwavesExtension {
       path: theme.path
     }));
 
-    vscode.window.showQuickPick(themes, {
-      placeHolder: "Escolha um tema Darkwaves...",
-      onDidSelectItem: (item: any) => {
-        this.changeTheme(item.label);
-      },
+    const currentTheme = vscode.workspace.getConfiguration().get('workbench.colorTheme') as string;
+    
+    const themesWithSelection = themes.map((theme: any) => {
+      const isCurrentTheme = currentTheme === theme.label;
+      return {
+        ...theme,
+        label: isCurrentTheme ? `$(check) ${theme.label} (Current)` : theme.label,
+        description: isCurrentTheme ? 'Currently active theme' : undefined,
+        picked: isCurrentTheme
+      };
+    });
+
+    vscode.window.showQuickPick(themesWithSelection, {
+      placeHolder: 'Choose a Darkwaves theme...',
+    }).then((selectedItem: any) => {
+      if(selectedItem) {
+        const cleanThemeName = selectedItem.label.replace(/^\$\(check\)\s*/, '').replace(/\s*\(Current\)$/, '');
+        this.changeTheme(cleanThemeName);
+      }
     });
   }
 
@@ -61,17 +73,26 @@ class DarkwavesExtension {
       await vscode.workspace
         .getConfiguration()
         .update(
-          "workbench.colorTheme",
+          'workbench.colorTheme',
           themeName,
           vscode.ConfigurationTarget.Workspace
         );
+      
+      this.updateStatusBarText(themeName);
+      
     } catch (error) {
-      vscode.window.showErrorMessage(`Erro ao alterar tema: ${error}`);
+      vscode.window.showErrorMessage(`Error changing theme: ${error}`);
+    }
+  }
+
+  private updateStatusBarText(themeName: string): void {
+    if(this.statusBarItem) {
+      this.statusBarItem.text = `$(sparkle-filled) ${themeName}`;
     }
   }
 
   public deactivate(): void {
-    if (this.statusBarItem) {
+    if(this.statusBarItem) {
       this.statusBarItem.dispose();
     }
   }
@@ -85,7 +106,7 @@ export function activate(context: vscode.ExtensionContext): void {
 }
 
 export function deactivate(): void {
-  if (extension) {
+  if(extension) {
     extension.deactivate();
   }
 }

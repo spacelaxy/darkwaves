@@ -1,5 +1,5 @@
 {
-  "name": "spacelaxy-beta",
+  "name": "spacelaxy-darkwaves",
   "displayName": "Darkwaves",
   "description": "Beautiful dark themes collection by Spacelaxy LLC",
   "version": "0.0.1",
@@ -18,7 +18,52 @@
       {
         "label": "Darkwaves: Celestial Mist",
         "uiTheme": "vs-dark",
-        "path": "./themes/celestial-mist.json"
+        "path": "./themes/darkwaves-celestial-mist.json"
+      },
+      {
+        "label": "Darkwaves: Cloud Lands",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkwaves-cloud-lands.json"
+      },
+      {
+        "label": "Darkwaves: Spectrum",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkwaves-spectrum.json"
+      },
+      {
+        "label": "Darkwaves: Gray Elegance",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkwaves-gray-elegance.json"
+      },
+      {
+        "label": "Darkwaves: Nebula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkwaves-nebula.json"
+      },
+      {
+        "label": "Darkwaves: Forge",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkwaves-forge.json"
+      },
+      {
+        "label": "Darkwaves: Carbon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkwaves-carbon.json"
+      },
+      {
+        "label": "Darkwaves: Obsidian",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkwaves-obsidian.json"
+      },
+      {
+        "label": "Darkwaves: Ashen Core",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkwaves-ashen-core.json"
+      },
+      {
+        "label": "Darkwaves: Voidflare",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkwaves-voidflare.json"
       }
     ],
     "commands": [
