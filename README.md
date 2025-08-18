@@ -27,6 +27,7 @@ Whether you're working on frontend applications, backend systems, scientific com
 | **Obsidian** | Deep, rich greens | System programming | Deep, rich theme with green accents |
 | **Ashen Core** | Minimalist grays | Documentation | Minimalist theme with subtle gray tones |
 | **Voidflare** | High-contrast brights | Gaming development | High-contrast theme with bright accents |
+| **Driftwood** | Natural wood tones | Nature-inspired coding | Aged wood aesthetics with low-contrast, calming colors |
 
 ## Showcase
 
@@ -65,3 +66,6 @@ Darkwaves allows you to customize your VS Code status bar to match your personal
   "darkwaves.statusBarText": "Darkwaves",
   "darkwaves.statusBarIcon": "🌌"
 }
+
+```
+© Copyright 2025 Spacelaxy LLC. All rights reserved.
