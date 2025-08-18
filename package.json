@@ -2,7 +2,7 @@
   "name": "spacelaxy-darkwaves",
   "displayName": "Darkwaves",
   "description": "Beautiful dark themes collection by Spacelaxy LLC",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "spacelaxy",
   "icon": "assets/logo.png",
   "galleryBanner": {
@@ -87,6 +87,11 @@
         "label": "Darkwaves: Voidflare",
         "uiTheme": "vs-dark",
         "path": "./themes/darkwaves-voidflare.json"
+      },
+      {
+        "label": "Darkwaves: Driftwood",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkwaves-driftwood.json"
       }
     ],
     "commands": [

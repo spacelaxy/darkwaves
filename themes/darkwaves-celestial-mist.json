@@ -210,7 +210,7 @@
         "meta.tag.php.tsx"
       ],
       "settings": {
-        "foreground": "#FF6B6B"
+        "foreground": "#8c78e6"
       }
     },
     {
@@ -439,28 +439,6 @@
       }
     },
     {
-      "name": "CSS: Number",
-      "scope": [
-        "constant.numeric.css",
-        "constant.numeric.scss",
-        "constant.numeric.less"
-      ],
-      "settings": {
-        "foreground": "#89d6e4"
-      }
-    },
-    {
-      "name": "CSS: Unit",
-      "scope": [
-        "keyword.other.unit.css",
-        "keyword.other.unit.scss",
-        "keyword.other.unit.less"
-      ],
-      "settings": {
-        "foreground": "#cccccc"
-      }
-    },
-    {
       "name": "CSS: Function",
       "scope": [
         "support.function.url.css",
@@ -472,7 +450,7 @@
         "support.function.misc.less"
       ],
       "settings": {
-        "foreground": "#f4e39e"
+        "foreground": "#d4c088"
       }
     },
     {
@@ -740,7 +718,7 @@
         "support.function.tsx"
       ],
       "settings": {
-        "foreground": "#f4e39e"
+        "foreground": "#d4c088"
       }
     },
     {
@@ -889,15 +867,6 @@
       }
     },
     {
-      "name": "Generic: Number (All)",
-      "scope": [
-        "constant.numeric"
-      ],
-      "settings": {
-        "foreground": "#89d6e4"
-      }
-    },
-    {
       "name": "Generic: Function & Call (All)",
       "scope": [
         "entity.name.function",
@@ -966,7 +935,7 @@
         "variable.function.kotlin"
       ],
       "settings": {
-        "foreground": "#f4e39e"
+        "foreground": "#d4c088"
       }
     },
     {
@@ -1340,7 +1309,6 @@
       "name": "Class Inheritance and Implementation",
       "scope": [
         "keyword.control.extends",
-        "keyword.control.implements",
         "keyword.control.extends.js",
         "keyword.control.extends.ts",
         "keyword.control.extends.tsx",
@@ -1356,6 +1324,7 @@
         "keyword.control.extends.rs",
         "keyword.control.extends.swift",
         "keyword.control.extends.kotlin",
+        "keyword.control.implements",
         "keyword.control.implements.js",
         "keyword.control.implements.ts",
         "keyword.control.implements.tsx",
@@ -1373,22 +1342,246 @@
         "keyword.control.implements.kotlin"
       ],
       "settings": {
-        "foreground": "#FFB347",
-        "fontStyle": "bold"
+        "foreground": "#8B6914"
+      }
+    },
+    {
+      "name": "Python: Decorators",
+      "scope": [
+        "entity.name.function.decorator.python",
+        "meta.decorator.python",
+        "punctuation.definition.decorator.python"
+      ],
+      "settings": {
+        "foreground": "#b69fd6",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python: Built-in Functions",
+      "scope": [
+        "support.function.builtin.python",
+        "support.function.magic.python",
+        "support.function.python"
+      ],
+      "settings": {
+        "foreground": "#9cb3e6"
+      }
+    },
+    {
+      "name": "Python: Built-in Types",
+      "scope": [
+        "support.type.python",
+        "support.type.builtin.python"
+      ],
+      "settings": {
+        "foreground": "#a7e6c4"
+      }
+    },
+    {
+      "name": "Python: Keywords",
+      "scope": [
+        "keyword.control.flow.python",
+        "keyword.control.statement.python",
+        "keyword.control.conditional.python",
+        "keyword.control.loop.python",
+        "keyword.control.exception.python",
+        "storage.type.function.python",
+        "storage.type.class.python",
+        "storage.modifier.python"
+      ],
+      "settings": {
+        "foreground": "#b69fd6"
+      }
+    },
+    {
+      "name": "Python: Import/From",
+      "scope": [
+        "keyword.control.import.python",
+        "keyword.control.import.from.python"
+      ],
+      "settings": {
+        "foreground": "#8c78e6",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python: Class Definition",
+      "scope": [
+        "entity.name.class.python",
+        "entity.name.type.class.python"
+      ],
+      "settings": {
+        "foreground": "#9cb3e6"
+      }
+    },
+    {
+      "name": "Python: Function Definition",
+      "scope": [
+        "entity.name.function.python",
+        "meta.function.python"
+      ],
+      "settings": {
+        "foreground": "#e6a7c1"
+      }
+    },
+    {
+      "name": "Python: Variables & Parameters",
+      "scope": [
+        "variable.parameter.python",
+        "variable.other.readwrite.python",
+        "variable.other.readwrite.global.python"
+      ],
+      "settings": {
+        "foreground": "#e8bfa6"
+      }
+    },
+    {
+      "name": "Python: String Formatting",
+      "scope": [
+        "string.quoted.single.python",
+        "string.quoted.double.python",
+        "string.quoted.triple.single.python",
+        "string.quoted.triple.double.python",
+        "string.quoted.docstring.python"
+      ],
+      "settings": {
+        "foreground": "#a4b88f"
+      }
+    },
+    {
+      "name": "Python: Numbers",
+      "scope": [
+        "constant.numeric.python",
+        "constant.numeric.integer.python",
+        "constant.numeric.float.python",
+        "constant.numeric.hex.python",
+        "constant.numeric.binary.python",
+        "constant.numeric.octal.python"
+      ],
+      "settings": {
+        "foreground": "#89d6e4"
+      }
+    },
+    {
+      "name": "Python: Comments",
+      "scope": [
+        "comment.line.number-sign.python",
+        "comment.line.hashbang.python",
+        "punctuation.definition.comment.python"
+      ],
+      "settings": {
+        "foreground": "#a4b88f",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python: Operators",
+      "scope": [
+        "keyword.operator.logical.python",
+        "keyword.operator.arithmetic.python",
+        "keyword.operator.comparison.python",
+        "keyword.operator.assignment.python",
+        "keyword.operator.bitwise.python",
+        "keyword.operator.member.python"
+      ],
+      "settings": {
+        "foreground": "#cccccc"
+      }
+    },
+    {
+      "name": "Python: Self Parameter",
+      "scope": [
+        "variable.language.self.python"
+      ],
+      "settings": {
+        "foreground": "#8c78e6",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python: Special Methods",
+      "scope": [
+        "support.function.magic.python",
+        "entity.name.function.magic.python"
+      ],
+      "settings": {
+        "foreground": "#b69fd6",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python: F-Strings",
+      "scope": [
+        "string.quoted.single.fstring.python",
+        "string.quoted.double.fstring.python",
+        "punctuation.definition.string.begin.fstring.python",
+        "punctuation.definition.string.end.fstring.python"
+      ],
+      "settings": {
+        "foreground": "#a4b88f"
+      }
+    },
+    {
+      "name": "Python: Type Hints",
+      "scope": [
+        "support.type.python",
+        "entity.name.type.python",
+        "meta.type.annotation.python"
+      ],
+      "settings": {
+        "foreground": "#a7e6c4"
+      }
+    },
+    {
+      "name": "TypeScript: Decorators",
+      "scope": [
+        "meta.decorator",
+        "meta.decorator.typescript",
+        "entity.name.function.decorator",
+        "support.function.decorator",
+        "variable.other.decorator",
+        "punctuation.decorator",
+        "meta.decorator.expression",
+        "meta.decorator.typescript.expression",
+        "decorator"
+      ],
+      "settings": {
+        "foreground": "#b69fd6"
+      }
+    },
+    {
+      "name": "CSS Numbers and Units",
+      "scope": [
+        "constant.numeric",
+        "constant.numeric.css",
+        "constant.numeric.integer.css",
+        "constant.numeric.float.css",
+        "constant.numeric.hex.css",
+        "constant.numeric.binary.css",
+        "constant.numeric.octal.css",
+        "keyword.other.unit.css",
+        "constant.numeric.scss",
+        "constant.numeric.integer.scss",
+        "constant.numeric.float.scss",
+        "constant.numeric.hex.scss",
+        "constant.numeric.binary.scss",
+        "constant.numeric.octal.scss",
+        "keyword.other.unit.scss",
+        "constant.numeric.less",
+        "constant.numeric.integer.less",
+        "constant.numeric.float.less",
+        "constant.numeric.hex.less",
+        "constant.numeric.binary.less",
+        "constant.numeric.octal.less",
+        "keyword.other.unit.less"
+      ],
+      "settings": {
+        "foreground": "#a08fd9"
       }
     }
   ],
   "tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": [
-          "constant.numeric.css",
-          "keyword.other.unit.css"
-        ],
-        "settings": {
-          "foreground": "#FFD700"
-        }
-      }
-    ]
+    "textMateRules": []
   }
 }
