@@ -75,7 +75,7 @@ class DarkwavesExtension {
         .update(
           'workbench.colorTheme',
           themeName,
-          vscode.ConfigurationTarget.Workspace
+          vscode.ConfigurationTarget.Global
         );
       
       this.updateStatusBarText(themeName);
