@@ -707,7 +707,7 @@
         "string.quoted.single.tsx"
       ],
       "settings": {
-        "foreground": "#2E8B57"
+        "foreground": "#329B5F"
       }
     },
     {
@@ -786,7 +786,7 @@
         "string.quoted.single.less"
       ],
       "settings": {
-        "foreground": "#2E8B57"
+        "foreground": "#329B5F"
       }
     },
     {
@@ -906,7 +906,7 @@
       "name": "PHP Namespace",
       "scope": ["support.other.namespace.php"],
       "settings": {
-        "foreground": "#2E8B57"
+        "foreground": "#329B5F"
       }
     },
     {
@@ -1016,7 +1016,7 @@
         "string.quoted.single.tsx"
       ],
       "settings": {
-        "foreground": "#2E8B57"
+        "foreground": "#329B5F"
       }
     },
     {
@@ -1065,7 +1065,7 @@
       "name": "TypeScript Template Strings",
       "scope": ["string.template.typescript", "string.template.js"],
       "settings": {
-        "foreground": "#2E8B57"
+        "foreground": "#329B5F"
       }
     },
     {
@@ -1096,7 +1096,7 @@
       "name": "JSON Value",
       "scope": ["string.quoted.double.json", "string.quoted.single.json"],
       "settings": {
-        "foreground": "#2E8B57"
+        "foreground": "#329B5F"
       }
     },
     {
@@ -1114,7 +1114,7 @@
         "string.unquoted.yaml"
       ],
       "settings": {
-        "foreground": "#2E8B57"
+        "foreground": "#329B5F"
       }
     },
     {
@@ -1309,6 +1309,125 @@
       "settings": {
         "foreground": "#FF9E64",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Vue Template Tags",
+      "scope": [
+        "entity.name.tag.vue",
+        "entity.name.tag.pug",
+        "entity.name.tag.jade"
+      ],
+      "settings": {
+        "foreground": "#4EC9B0"
+      }
+    },
+    {
+      "name": "Vue Custom Tags",
+      "scope": [
+        "entity.name.tag.script.vue",
+        "entity.name.tag.template.vue",
+        "entity.name.tag.style.vue"
+      ],
+      "settings": {
+        "foreground": "#4EC9B0"
+      }
+    },
+    {
+      "name": "Angular Template Tags",
+      "scope": [
+        "entity.name.tag.angular",
+        "entity.name.tag.ng-template"
+      ],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "name": "React/JSX Custom Tags",
+      "scope": [
+        "entity.name.tag.custom.jsx",
+        "entity.name.tag.custom.tsx"
+      ],
+      "settings": {
+        "foreground": "#4EC9B0"
+      }
+    },
+    {
+      "name": "XML Tags",
+      "scope": [
+        "entity.name.tag.xml",
+        "entity.name.tag.config",
+        "entity.name.tag.manifest"
+      ],
+      "settings": {
+        "foreground": "#C586C0"
+      }
+    },
+    {
+      "name": "Markdown Tags",
+      "scope": [
+        "entity.name.tag.markdown",
+        "markup.heading.markdown",
+        "markup.italic.markdown",
+        "markup.bold.markdown"
+      ],
+      "settings": {
+        "foreground": "#C586C0"
+      }
+    },
+    {
+      "name": "Template Engine Tags",
+      "scope": [
+        "entity.name.tag.handlebars",
+        "entity.name.tag.mustache",
+        "entity.name.tag.ejs",
+        "entity.name.tag.nunjucks",
+        "entity.name.tag.twig"
+      ],
+      "settings": {
+        "foreground": "#D4A017"
+      }
+    },
+    {
+      "name": "Configuration Tags",
+      "scope": [
+        "entity.name.tag.config.json",
+        "entity.name.tag.config.yaml",
+        "entity.name.tag.config.toml",
+        "entity.name.tag.config.ini"
+      ],
+      "settings": {
+        "foreground": "#D4A017"
+      }
+    },
+    {
+      "name": "Docker Tags",
+      "scope": [
+        "entity.name.tag.dockerfile",
+        "entity.name.tag.docker-compose"
+      ],
+      "settings": {
+        "foreground": "#7FB069"
+      }
+    },
+    {
+      "name": "Generic Tags",
+      "scope": [
+        "entity.name.tag.generic",
+        "entity.name.tag.unknown"
+      ],
+      "settings": {
+        "foreground": "#808080"
+      }
+    },
+    {
+      "name": "Generic Tags Fallback",
+      "scope": [
+        "entity.name.tag"
+      ],
+      "settings": {
+        "foreground": "#4EC9B0"
       }
     }
   ]

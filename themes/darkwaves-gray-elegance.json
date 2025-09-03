@@ -156,7 +156,7 @@
     "terminal.ansiBlack": "#1E1E22",
     "terminal.ansiRed": "#EF9A9A",
     "terminal.ansiGreen": "#A5D6A7",
-    "terminal.ansiYellow": "#FFD580",
+    "terminal.ansiYellow": "#FFD984",
     "terminal.ansiBlue": "#82A9FF",
     "terminal.ansiMagenta": "#FF79C6",
     "terminal.ansiCyan": "#8BE9FD",
@@ -164,7 +164,7 @@
     "terminal.ansiBrightBlack": "#1A1A1E",
     "terminal.ansiBrightRed": "#EF9A9A",
     "terminal.ansiBrightGreen": "#A5D6A7",
-    "terminal.ansiBrightYellow": "#FFD580",
+    "terminal.ansiBrightYellow": "#FFD984",
     "terminal.ansiBrightBlue": "#82A9FF",
     "terminal.ansiBrightMagenta": "#FF79C6",
     "terminal.ansiBrightCyan": "#8BE9FD",
@@ -223,7 +223,7 @@
         "punctuation.definition.string.end"
       ],
       "settings": {
-        "foreground": "#EEC570"
+        "foreground": "#F0C772"
       }
     },
     {
@@ -432,7 +432,7 @@
         "constant.other"
       ],
       "settings": {
-        "foreground": "#EFBB5B"
+        "foreground": "#F1BD5D"
       }
     },
     {
@@ -505,7 +505,7 @@
         "string.quoted.single.tsx"
       ],
       "settings": {
-        "foreground": "#EFD072"
+        "foreground": "#F1D274"
       }
     },
     {
@@ -645,7 +645,7 @@
         "string.quoted.single.json"
       ],
       "settings": {
-        "foreground": "#EFE58D"
+        "foreground": "#F1E78F"
       }
     },
     {
@@ -666,7 +666,7 @@
         "string.unquoted.yaml"
       ],
       "settings": {
-        "foreground": "#EFE58D"
+        "foreground": "#F1E78F"
       }
     },
     {
@@ -675,7 +675,7 @@
         "constant.numeric.yaml"
       ],
       "settings": {
-        "foreground": "#EFE58D"
+        "foreground": "#F1E78F"
       }
     },
     {
@@ -686,7 +686,7 @@
         "constant.language.false.yaml"
       ],
       "settings": {
-        "foreground": "#EFE58D"
+        "foreground": "#F1E78F"
       }
     },
     {
@@ -695,7 +695,7 @@
         "constant.language.null.yaml"
       ],
       "settings": {
-        "foreground": "#EFE58D"
+        "foreground": "#F1E78F"
       }
     },
     {
@@ -773,7 +773,7 @@
         "invalid.deprecated"
       ],
       "settings": {
-        "foreground": "#EFBB5B"
+        "foreground": "#F1BD5D"
       }
     },
     {
@@ -868,8 +868,127 @@
         "keyword.control.implements.kotlin"
       ],
       "settings": {
-        "foreground": "#EFA337",
+        "foreground": "#F1A539",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Vue Template Tags",
+      "scope": [
+        "entity.name.tag.vue",
+        "entity.name.tag.pug",
+        "entity.name.tag.jade"
+      ],
+      "settings": {
+        "foreground": "#7299EF"
+      }
+    },
+    {
+      "name": "Vue Custom Tags",
+      "scope": [
+        "entity.name.tag.script.vue",
+        "entity.name.tag.template.vue",
+        "entity.name.tag.style.vue"
+      ],
+      "settings": {
+        "foreground": "#7299EF"
+      }
+    },
+    {
+      "name": "Angular Template Tags",
+      "scope": [
+        "entity.name.tag.angular",
+        "entity.name.tag.ng-template"
+      ],
+      "settings": {
+        "foreground": "#A378EF"
+      }
+    },
+    {
+      "name": "React/JSX Custom Tags",
+      "scope": [
+        "entity.name.tag.custom.jsx",
+        "entity.name.tag.custom.tsx"
+      ],
+      "settings": {
+        "foreground": "#7299EF"
+      }
+    },
+    {
+      "name": "XML Tags",
+      "scope": [
+        "entity.name.tag.xml",
+        "entity.name.tag.config",
+        "entity.name.tag.manifest"
+      ],
+      "settings": {
+        "foreground": "#C1B4D9"
+      }
+    },
+    {
+      "name": "Markdown Tags",
+      "scope": [
+        "entity.name.tag.markdown",
+        "markup.heading.markdown",
+        "markup.italic.markdown",
+        "markup.bold.markdown"
+      ],
+      "settings": {
+        "foreground": "#C1B4D9"
+      }
+    },
+    {
+      "name": "Template Engine Tags",
+      "scope": [
+        "entity.name.tag.handlebars",
+        "entity.name.tag.mustache",
+        "entity.name.tag.ejs",
+        "entity.name.tag.nunjucks",
+        "entity.name.tag.twig"
+      ],
+      "settings": {
+        "foreground": "#F1BD5D"
+      }
+    },
+    {
+      "name": "Configuration Tags",
+      "scope": [
+        "entity.name.tag.config.json",
+        "entity.name.tag.config.yaml",
+        "entity.name.tag.config.toml",
+        "entity.name.tag.config.ini"
+      ],
+      "settings": {
+        "foreground": "#F1BD5D"
+      }
+    },
+    {
+      "name": "Docker Tags",
+      "scope": [
+        "entity.name.tag.dockerfile",
+        "entity.name.tag.docker-compose"
+      ],
+      "settings": {
+        "foreground": "#A378EF"
+      }
+    },
+    {
+      "name": "Generic Tags",
+      "scope": [
+        "entity.name.tag.generic",
+        "entity.name.tag.unknown"
+      ],
+      "settings": {
+        "foreground": "#989898"
+      }
+    },
+    {
+      "name": "Generic Tags Fallback",
+      "scope": [
+        "entity.name.tag"
+      ],
+      "settings": {
+        "foreground": "#7299EF"
       }
     }
   ]

@@ -1579,6 +1579,125 @@
       "settings": {
         "foreground": "#a08fd9"
       }
+    },
+    {
+      "name": "Vue Template Tags",
+      "scope": [
+        "entity.name.tag.vue",
+        "entity.name.tag.pug",
+        "entity.name.tag.jade"
+      ],
+      "settings": {
+        "foreground": "#9cb3e6"
+      }
+    },
+    {
+      "name": "Vue Custom Tags",
+      "scope": [
+        "entity.name.tag.script.vue",
+        "entity.name.tag.template.vue",
+        "entity.name.tag.style.vue"
+      ],
+      "settings": {
+        "foreground": "#9cb3e6"
+      }
+    },
+    {
+      "name": "Angular Template Tags",
+      "scope": [
+        "entity.name.tag.angular",
+        "entity.name.tag.ng-template"
+      ],
+      "settings": {
+        "foreground": "#e8bfa6"
+      }
+    },
+    {
+      "name": "React/JSX Custom Tags",
+      "scope": [
+        "entity.name.tag.custom.jsx",
+        "entity.name.tag.custom.tsx"
+      ],
+      "settings": {
+        "foreground": "#9cb3e6"
+      }
+    },
+    {
+      "name": "XML Tags",
+      "scope": [
+        "entity.name.tag.xml",
+        "entity.name.tag.config",
+        "entity.name.tag.manifest"
+      ],
+      "settings": {
+        "foreground": "#b69fd6"
+      }
+    },
+    {
+      "name": "Markdown Tags",
+      "scope": [
+        "entity.name.tag.markdown",
+        "markup.heading.markdown",
+        "markup.italic.markdown",
+        "markup.bold.markdown"
+      ],
+      "settings": {
+        "foreground": "#b69fd6"
+      }
+    },
+    {
+      "name": "Template Engine Tags",
+      "scope": [
+        "entity.name.tag.handlebars",
+        "entity.name.tag.mustache",
+        "entity.name.tag.ejs",
+        "entity.name.tag.nunjucks",
+        "entity.name.tag.twig"
+      ],
+      "settings": {
+        "foreground": "#8c78e6"
+      }
+    },
+    {
+      "name": "Configuration Tags",
+      "scope": [
+        "entity.name.tag.config.json",
+        "entity.name.tag.config.yaml",
+        "entity.name.tag.config.toml",
+        "entity.name.tag.config.ini"
+      ],
+      "settings": {
+        "foreground": "#8c78e6"
+      }
+    },
+    {
+      "name": "Docker Tags",
+      "scope": [
+        "entity.name.tag.dockerfile",
+        "entity.name.tag.docker-compose"
+      ],
+      "settings": {
+        "foreground": "#a4b88f"
+      }
+    },
+    {
+      "name": "Generic Tags",
+      "scope": [
+        "entity.name.tag.generic",
+        "entity.name.tag.unknown"
+      ],
+      "settings": {
+        "foreground": "#a0a0a0"
+      }
+    },
+    {
+      "name": "Generic Tags Fallback",
+      "scope": [
+        "entity.name.tag"
+      ],
+      "settings": {
+        "foreground": "#9cb3e6"
+      }
     }
   ],
   "tokenColorCustomizations": {
