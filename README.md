@@ -8,7 +8,7 @@
 
 Whether you're working on frontend applications, backend systems, scientific computing, or creative projects, Darkwaves offers a theme that matches your workflow and personal style. Our themes are built with modern development practices in mind, ensuring compatibility with all VS Code features including syntax highlighting, IntelliSense, and extensions.
 
-[![Version](https://img.shields.io/badge/version-0.0.7-blue.svg)](https://marketplace.visualstudio.com/items?itemName=spacelaxy.spacelaxy-darkwaves)
+[![Version](https://img.shields.io/badge/version-0.0.8-blue.svg)](https://marketplace.visualstudio.com/items?itemName=spacelaxy.spacelaxy-darkwaves)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 
 ---
